@@ -38,5 +38,43 @@ module RailsDav
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
+    
+    require 'dav4rack/interceptor'
+    require 'dav4rack/file_resource'
+    
+    WEBDAV_MOUNT_PATH = '/webdav'
+    
+    def routes
+      routes_app = super
+      app = Rack::Builder.new {
+        map WEBDAV_MOUNT_PATH + '/' do
+          run DAV4Rack::Handler.new(
+            :root => Rails.root.to_s,
+            :root_uri_path => WEBDAV_MOUNT_PATH,
+            :resource_class => ::DAV4Rack::FileResource
+          )
+        end
+
+        map '/' do
+          use DAV4Rack::Interceptor, :mappings => {
+            WEBDAV_MOUNT_PATH + '/' => {
+              :resource_class => ::DAV4Rack::FileResource
+            },
+          }
+          run routes_app
+        end
+      }.to_app
+
+      class << app; self end.class_eval do
+        attr_accessor :routes_app
+        def method_missing(sym, *args, &block)
+          routes_app.send sym, *args, &block
+        end
+      end
+      app.routes_app = routes_app
+
+      return app
+    end
+    
   end
 end
