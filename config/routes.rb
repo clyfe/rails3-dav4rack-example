@@ -1,4 +1,22 @@
 RailsDav::Application.routes.draw do
+
+  require 'dav4rack/interceptor'
+  require 'dav4rack/file_resource'
+
+  mount DAV4Rack::Handler.new(
+    :root => Rails.root.to_s,
+    :root_uri_path => '/',
+    :resource_class => ::DAV4Rack::FileResource
+  ), :at => '/', :constraints => {:subdomain => "webdav"}
+
+  root :to => lambda {|env| [ 200,
+      {
+        'Content-Type' => 'text/plain',
+        'Content-Length' => '12'
+      },
+      ["Hello World!"]
+    ]}
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
