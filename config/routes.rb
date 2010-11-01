@@ -1,8 +1,5 @@
 RailsDav::Application.routes.draw do
 
-  require 'dav4rack/interceptor'
-  require 'dav4rack/file_resource'
-
   mount DAV4Rack::Handler.new(
     :root => Rails.root.to_s,
     :root_uri_path => '/',
