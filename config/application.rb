@@ -9,11 +9,6 @@ require "active_resource/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env) if defined?(Bundler)
 
-class ActionDispatch::Request
-    HTTP_METHODS = %w(get head put post delete options lock unlock propfind proppatch mkcol delete put copy move)
-    HTTP_METHOD_LOOKUP = HTTP_METHODS.inject({}) { |h, m| h[m] = h[m.upcase] = m.to_sym; h }
-end
-
 module RailsDav
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
