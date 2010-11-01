@@ -9,7 +9,7 @@ Start the Webdav enabled rails application
     rails server
     # or > passenger start
 
-The application serves Rails.root via /webdav/ path
+The application serves Rails.root via webdav.host subdomain
 Use a webdav client, I recommend cadaver
 
     yum install cadaver
