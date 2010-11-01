@@ -64,3 +64,363 @@ Started PROPFIND "/webdav/" for 127.0.0.1 at 2010-10-31 09:48:59 -0700
 
 
 Started PROPFIND "/webdav/" for 127.0.0.1 at 2010-10-31 09:49:00 -0700
+
+
+Started OPTIONS "/" for 127.0.0.1 at 2010-11-01 01:16:26 -0700
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started OPTIONS "/webdav/" for 127.0.0.1 at 2010-11-01 01:17:58 -0700
+
+ActionController::RoutingError (No route matches "/webdav/"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started OPTIONS "/" for 127.0.0.1 at 2010-11-01 01:21:09 -0700
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started OPTIONS "/" for 127.0.0.1 at 2010-11-01 01:37:38 -0700
+
+
+Started PROPFIND "/" for 127.0.0.1 at 2010-11-01 01:37:39 -0700
+
+
+Started PROPFIND "/" for 127.0.0.1 at 2010-11-01 01:37:40 -0700
+
+
+Started PROPFIND "/" for 127.0.0.1 at 2010-11-01 01:37:42 -0700
+
+
+Started PROPFIND "/" for 127.0.0.1 at 2010-11-01 01:37:45 -0700
+
+
+Started PROPFIND "/webdav/" for 127.0.0.1 at 2010-11-01 01:37:45 -0700
+
+
+Started PROPFIND "/webdav/" for 127.0.0.1 at 2010-11-01 01:37:46 -0700
+
+
+Started OPTIONS "/" for 127.0.0.1 at 2010-11-01 01:58:22 -0700
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started OPTIONS "/" for 127.0.0.1 at 2010-11-01 02:00:14 -0700
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started OPTIONS "/" for 127.0.0.1 at 2010-11-01 02:00:51 -0700
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.3ms)
+
+
+Started OPTIONS "/" for 127.0.0.1 at 2010-11-01 02:01:05 -0700
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:04:59 -0700
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:05:00 -0700
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:05:00 -0700
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:05:47 -0700
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:05:48 -0700
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:06:01 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:06:02 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:06:03 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:06:03 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:06:03 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:06:04 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:06:04 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:06:04 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:06:04 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:06:04 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:06:05 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:06:05 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:06:05 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:06:05 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:06:06 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:06:06 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:06:06 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:06:23 -0700
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:23:16 -0700
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:23:17 -0700
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:23:17 -0700
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:23:18 -0700
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:23:18 -0700
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (14.6ms)
+
+
+Started OPTIONS "/" for 127.0.0.1 at 2010-11-01 02:36:09 -0700
+
+
+Started PROPFIND "/" for 127.0.0.1 at 2010-11-01 02:36:09 -0700
+
+
+Started PROPFIND "/" for 127.0.0.1 at 2010-11-01 02:36:12 -0700
+
+
+Started PROPFIND "/" for 127.0.0.1 at 2010-11-01 02:36:13 -0700
+
+
+Started PROPFIND "/webdav/" for 127.0.0.1 at 2010-11-01 02:36:13 -0700
+
+
+Started PROPFIND "/webdav/" for 127.0.0.1 at 2010-11-01 02:36:14 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:37:16 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 02:37:38 -0700
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started OPTIONS "/" for 127.0.0.1 at 2010-11-01 03:08:24 -0700
+
+
+Started PROPFIND "/" for 127.0.0.1 at 2010-11-01 03:08:25 -0700
+
+
+Started PROPFIND "/" for 127.0.0.1 at 2010-11-01 03:08:26 -0700
+
+
+Started PROPFIND "/" for 127.0.0.1 at 2010-11-01 03:08:28 -0700
+
+
+Started PROPFIND "/webdav/" for 127.0.0.1 at 2010-11-01 03:08:28 -0700
+
+
+Started PROPFIND "/webdav/" for 127.0.0.1 at 2010-11-01 03:08:29 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 03:08:44 -0700
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-01 03:19:29 -0700
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started OPTIONS "/" for 127.0.0.1 at 2010-11-01 03:40:59 -0700
+
+
+Started PROPFIND "/" for 127.0.0.1 at 2010-11-01 03:41:00 -0700
+
+
+Started OPTIONS "/" for 127.0.0.1 at 2010-11-01 03:41:29 -0700
+
+
+Started PROPFIND "/" for 127.0.0.1 at 2010-11-01 03:41:29 -0700
+
+
+Started OPTIONS "/w/" for 127.0.0.1 at 2010-11-01 03:42:03 -0700
+
+
+Started PROPFIND "/w/" for 127.0.0.1 at 2010-11-01 03:42:03 -0700
+
+
+Started OPTIONS "/w/" for 127.0.0.1 at 2010-11-01 03:42:07 -0700
+
+
+Started PROPFIND "/w/" for 127.0.0.1 at 2010-11-01 03:42:07 -0700
+
+
+Started OPTIONS "/w/" for 127.0.0.1 at 2010-11-01 03:42:23 -0700
+
+
+Started PROPFIND "/w/" for 127.0.0.1 at 2010-11-01 03:42:24 -0700
+
+
+Started OPTIONS "/w/" for 127.0.0.1 at 2010-11-01 03:42:52 -0700
+
+
+Started PROPFIND "/w/" for 127.0.0.1 at 2010-11-01 03:42:52 -0700
+
+
+Started OPTIONS "/webdav/" for 127.0.0.1 at 2010-11-01 03:43:57 -0700
+
+
+Started PROPFIND "/webdav/" for 127.0.0.1 at 2010-11-01 03:43:58 -0700
+
+
+Started PROPFIND "/webdav/" for 127.0.0.1 at 2010-11-01 03:43:59 -0700
+
+
+Started OPTIONS "/" for 127.0.0.1 at 2010-11-01 03:44:38 -0700
+
+
+Started PROPFIND "/" for 127.0.0.1 at 2010-11-01 03:44:38 -0700
+
+
+Started PROPFIND "/" for 127.0.0.1 at 2010-11-01 03:44:40 -0700
+
+
+Started OPTIONS "/" for 127.0.0.1 at 2010-11-01 03:45:58 -0700
+
+
+Started PROPFIND "/" for 127.0.0.1 at 2010-11-01 03:45:59 -0700
+
+
+Started PROPFIND "/" for 127.0.0.1 at 2010-11-01 03:46:01 -0700
+
+
+Started OPTIONS "/" for 127.0.0.1 at 2010-11-01 03:47:57 -0700
+
+
+Started PROPFIND "/" for 127.0.0.1 at 2010-11-01 03:47:57 -0700
+
+
+Started PROPFIND "/" for 127.0.0.1 at 2010-11-01 03:47:59 -0700
+
+
+Started OPTIONS "/" for 127.0.0.1 at 2010-11-01 04:16:41 -0700
+
+
+Started PROPFIND "/" for 127.0.0.1 at 2010-11-01 04:16:41 -0700
+
+
+Started PROPFIND "/" for 127.0.0.1 at 2010-11-01 04:16:45 -0700
