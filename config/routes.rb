@@ -7,10 +7,8 @@ RailsDav::Application.routes.draw do
   ), :at => '/', :constraints => {:subdomain => "webdav"}
 
   root :to => lambda {|env| [ 200,
-      { 'Content-Type' => 'text/plain',
-        'Content-Length' => '12' },
-      ["Hello World!"]
-    ]}
+    {'Content-Type' => 'text/plain', 'Content-Length' => '12'}, ["Hello World!"]
+  ]}
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
