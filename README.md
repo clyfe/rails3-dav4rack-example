@@ -31,7 +31,7 @@ Start browsing
 I use in this example http://lvh.me domain that is specially configured to point  
 to 127.0.0.1 for subdomain development purposes.  
 
-``shell
+```shell
 clyfe@ubuntu:~/dev/rails3-dav4rack-example$ cadaver dav://webdav.lvh.me:3000
 dav:/> ls
 Listing collection `/': succeeded.
