@@ -7,43 +7,50 @@ Step by step tutorial on how the application is built here: http://github.com/ch
 
 Clone the project
 
-    git clone git://github.com/clyfe/rails3-dav4rack-example.git
-    cd rails3-dav4rack-example
+```shell
+git clone git://github.com/clyfe/rails3-dav4rack-example.git
+cd rails3-dav4rack-example
+```
 
 Start the Webdav enabled rails application
 
-    rails server
-    # or > passenger start
+```shell
+rails server
+# or > passenger start
+```
 
 The application serves Rails.root via webdav.host subdomain  
 Use a webdav client, I recommend cadaver  
 
-    yum install cadaver
-    apt-get install cadaver
+```shell
+yum install cadaver
+apt-get install cadaver
+```
 
 Start browsing  
 I use in this example http://lvh.me domain that is specially configured to point  
 to 127.0.0.1 for subdomain development purposes.  
 
-    clyfe@ubuntu:~/dev/rails3-dav4rack-example$ cadaver dav://webdav.lvh.me:3000
-    dav:/> ls
-    Listing collection `/': succeeded.
-    Coll:   app                                 4096  Oct 31 09:30
-    Coll:   config                              4096  Oct 31 09:48
-    Coll:   db                                  4096  Oct 31 09:46
-    Coll:   doc                                 4096  Oct 31 09:30
-    Coll:   lib                                 4096  Oct 31 09:30
-    Coll:   log                                 4096  Nov  1 03:19
-    Coll:   nbproject                           4096  Nov  1 01:22
-    Coll:   public                              4096  Nov  1 02:00
-    Coll:   script                              4096  Oct 31 09:30
-    Coll:   test                                4096  Oct 31 09:30
-    Coll:   tmp                                 4096  Oct 31 09:30
-    Coll:   vendor                              4096  Oct 31 09:30
-            Gemfile                              680  Oct 31 09:32
-            Gemfile.lock                        1816  Oct 31 09:40
-            README                              1667  Oct 31 09:53
-            Rakefile                             268  Oct 31 09:30
-            config.ru                            158  Nov  1 03:40
-    dav:/>
-
+``shell
+clyfe@ubuntu:~/dev/rails3-dav4rack-example$ cadaver dav://webdav.lvh.me:3000
+dav:/> ls
+Listing collection `/': succeeded.
+Coll:   app                                 4096  Oct 31 09:30
+Coll:   config                              4096  Oct 31 09:48
+Coll:   db                                  4096  Oct 31 09:46
+Coll:   doc                                 4096  Oct 31 09:30
+Coll:   lib                                 4096  Oct 31 09:30
+Coll:   log                                 4096  Nov  1 03:19
+Coll:   nbproject                           4096  Nov  1 01:22
+Coll:   public                              4096  Nov  1 02:00
+Coll:   script                              4096  Oct 31 09:30
+Coll:   test                                4096  Oct 31 09:30
+Coll:   tmp                                 4096  Oct 31 09:30
+Coll:   vendor                              4096  Oct 31 09:30
+        Gemfile                              680  Oct 31 09:32
+        Gemfile.lock                        1816  Oct 31 09:40
+        README                              1667  Oct 31 09:53
+        Rakefile                             268  Oct 31 09:30
+        config.ru                            158  Nov  1 03:40
+dav:/>
+```
